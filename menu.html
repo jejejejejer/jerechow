@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Menu – Chowking</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="menu.css" />
+</head>
+<body>
+
+  <!-- Header -->
+<header class="sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="homepage.html">
+        <img src="she.png" alt="Chowking Logo" height="60">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+       <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="homepage.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" id="loginLogoutLink" href="logout.html">Logout</a></li>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+  <!-- Main Section -->
+  <main class="menu-section container py-5">
+    <h1 class="menu-title text-center mb-5">Our Bestsellers</h1>
+    <div class="menu-grid">
+
+      <!-- Product 1 -->
+      <div class="menu-card">
+        <img src="https://www.chowkingusa.com/cdn/shop/files/CHAOFANWHITEBG600X480_002.png?v=1744933689" alt="Chao Fan" />
+        <h3>Chao Fan</h3>
+        <p>Signature fried rice loaded with beef, pork, and spring onions.</p>
+        <span class="price">₱65</span>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="menu-card">
+        <img src="https://www.chowking.ph/wp-content/uploads/2023/09/4pcs-Siomai-650-x-547px.png" alt="Siomai" />
+        <h3>Siomai</h3>
+        <p>Steamed pork dumplings packed with umami and served fresh.</p>
+        <span class="price">₱45</span>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="menu-card">
+        <img src="https://www.chowking.ph/wp-content/uploads/2023/09/Chinese-Style-Fried-Chicken-Lauriat-850x715-1.png" alt="Lauriat" />
+        <h3>Lauriat</h3>
+        <p>Ultimate combo: fried chicken, pancit, rice, siomai, dessert & drink.</p>
+        <span class="price">₱99</span>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="menu-card">
+        <img src="https://www.chowkingusa.com/cdn/shop/products/ea05dd3421f6413bb2ab4296d5831678.jpg?v=1631130861" alt="Halo-Halo" />
+        <h3>Halo-Halo</h3>
+        <p>Cool and creamy shaved ice with leche flan, ube, and sago pearls.</p>
+        <span class="price">₱55</span>
+      </div>
+
+      <!-- Product 5 -->
+      <div class="menu-card">
+        <img src="https://www.chowking.ph/wp-content/uploads/2023/09/Beef-Wonton-Mami320x283.png" alt="Beef Wonton Noodles" />
+        <h3>Beef Wonton Noodles</h3>
+        <p>Warm noodle soup with tender beef slices and stuffed wontons.</p>
+        <span class="price">₱89</span>
+      </div>
+
+      <!-- Product 6 -->
+      <div class="menu-card">
+        <img src="https://www.chowkingusa.com/cdn/shop/files/buchi1200x800_grande.png?v=1716335436" alt="Buchi" />
+        <h3>Buchi Dim Sum</h3>
+        <p>Golden, crispy rice balls filled with rich, sweet mongo paste.</p>
+        <span class="price">₱39</span>
+      </div>
+
+      <!-- Product 7 -->
+      <div class="menu-card">
+        <img src="data:image/jpeg;base64,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" alt="Milk Tea" />
+        <h3>Classic Milk Tea</h3>
+        <p>Refreshing blend of tea and milk topped with chewy black pearls.</p>
+        <span class="price">₱49</span>
+      </div>
+
+      <!-- Product 8 -->
+      <div class="menu-card">
+        <img src="https://www.chowkingusa.com/cdn/shop/products/63b4ad2cbec74a098ca9536248964e32.jpg?v=1631130859" alt="Spring Rolls" />
+        <h3>Spring Rolls</h3>
+        <p>Crispy vegetable rolls served with sweet chili dipping sauce.</p>
+        <span class="price">₱42</span>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <footer class="bg-dark text-white text-center py-4">
+    <div class="mb-3">
+      <a href="homepage.html" class="text-white text-decoration-none me-3">Home</a>
+      <a href="about.html" class="text-white text-decoration-none me-3">About</a>
+      <a href="menu.html" class="text-white text-decoration-none me-3">Menu</a>
+      <a href="logout.html" id="loginLogoutLink" class="text-white text-decoration-none">Logout</a>
+    </div>
+        <p class="mb-0">&copy; 2025 Chowking. Chinese‑Style Sarap!</p>
+    <p class="small">THIS IS NOT REAL, FAKE WEBSITE</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
